@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="imgs/favicon_io/favicon-16x16.png" type="image/x-icon">
+    <!-- LINK BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="mg-cero">
+    <div class="container">
+        <header class="row">
+            <!-- col-12 vista mobile, col-xl-12 vista desktop -->
+            <div class="col-12 col-xl-12">
+                <!-- LOGO + NAV -->
+                <!--
+                <div class="header__logo col-3  col-xl-2">
+                    <img src="imgs/logo-blanco.png" alt="logo blanco Andres del Arca">
+                </div>
+                -->
+                <nav class="navbar navbar-expand-lg bg-ppal">
+                    <div class="container-fluid m-2">
+                        <a class="navbar-brand" href="#"><img class="nav__logo ms-4" src="imgs/logo-blanco2.png"
+                                alt="Logo blanco"></a>
+                        <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item px-3 nav__text">
+                                    <a class="nav-link active " aria-current="page"
+                                        href="pages/casamientos.html">Casamientos</a>
+                                </li>
+                                <li class="nav-item px-3 nav__text">
+                                    <a class="nav-link active" aria-current="page" href="pages/quinceanios.html">15
+                                        años</a>
+                                </li>
+                                <li class="nav-item px-3 nav__text">
+                                    <a class="nav-link active" aria-current="page" href="pages/sobre-mi.html">Sobre
+                                        mi</a>
+                                </li>
+                                <li class="nav-item px-3">
+                                    <a href="pages/contacto.html" class="btn nav__btn m-4 px-3" role="button">Contacto</a>
+                                </li>
+                                <!--
+                                <li class="nav-item">
+                                    <a class="nav-link disabled">Disabled</a>
+                                </li>-->
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- BANNER PRINCIPAL CON IMAGEN -->
+        <div class="banner row position-relative">
+            <!-- IMAGEN HEADER -->
+            <div class="col-12 col-xl-12 bg-dark px-0">
+                <img class="img-fluid opacity-50" src="imgs/Casamiento fiesta.jpeg"
+                    alt="Foto de casamiento con detalle de ramo">
+            </div>
+            <!-- TITULO PRINCIPAL + SECUNDARIO + BOTON -->
+            <div class="col-12 col-xl-12 position-absolute top-50 start-0 translate-middle-y p-5">
+                <h1 class="fw-bold text-light">Andrés del Arca</h1>
+                <h2 class="fw-light text-light">Producciones</h2>
+                <a href="pages/contacto.html" class="btn btn-secondary my-4">Contacto</a>
+            </div>
+        </div>
+
+        <!-- TEXTO SOBRE MI + IMAGEN -->
+        <div class="sobre-mi row my-5">
+            <div class="col-12 col-xl-6 p-5">
+                <h2>Sobre mi</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores et non amet vitae facere omnis,
+                    labore ducimus libero eaque sapiente! Voluptate nulla ea delectus repellendus hic fugit suscipit
+                    dignissimos dolorum?</p>
+                <a href="pages/sobre-mi.html" class="btn btn-outline-secondary my-3 btn-sm">Ver +</a>
+            </div>
+            <div class="col-12 col-xl-6 p-5">
+                <img class="img-fluid rounded-circle  w-50" src="imgs/sobre-mi.png" alt="Retrato con mi perro">
+            </div>
+        </div>
+
+        <!-- CASAMIENTOS -->
+        <div class="casamientos row">
+            <div class="col-12 col-xl-6 p-0 m-0">
+                <img class="img-fluid" src="imgs/anillo.jpeg" alt="Detalle anillos boda">
+            </div>
+            <div class="col-12 col-xl-6 p-5">
+                <h2>Casamientos</h2>
+                <a href="pages/casamientos.html" class="btn btn-outline-secondary my-3 btn-sm">Ver +</a>
+            </div>
+        </div>
+
+        <!-- 15 anios -->
+        <div class="quince row">
+            <div class="col-12  col-xl-6 p-5 text-end">
+                <h2>15 años</h2>
+                <a href="pages/quinceanios.html" class="btn btn-outline-secondary my-3 btn-sm">Ver +</a>
+            </div>
+            <div class="col-12 col-xl-6 p-0 m-0">
+                <img class="img-fluid" src="imgs/torta quince.jpeg" alt="Torta de 15 años">
+            </div>
+        </div>
+
+        <!-- TESTIMONIOS -->
+        <div class="testimonios row m-5">
+            <div class="col-12 col-xl-12 d-flex justify-content-center p-1">
+                <h3>Testimonios</h3>
+            </div>
+            <div class="col-12 col-xl-12 d-flex justify-content-center">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quae iusto minima odio? Nisi incidunt
+                    maiores corrupti voluptate cum autem</p>
+            </div>
+            <div class="col-12 col-xl-12 d-flex justify-content-center p-3">
+                <img class="img-fluid rounded-circle w-25" src="imgs/testimonio.png" alt="Ana & Juan">
+            </div>
+            <div class="col-12 col-xl-12 d-flex justify-content-center p-1">
+                <h6>Ana & Juan</h6>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="row">
+            <nav class="navbar navbar-expand-lg bg-ppal">
+                <div class="container-fluid m-2">
+                    <img class="footer__logo ms-4 col-12" src="imgs/logo-blanco2.png" alt="Logo blanco">
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center">
+                            <li class="nav-item px-3 nav__text">
+                                <p class=".fs-6 text my-0 text-start">©️ Andrés del Arca Producciones, todos los derechos reservados.</p>
+                            </li>
+                            <li class="nav-item px-3 nav__text">
+                                <p class="my-0">Seguinos</p>
+                            </li>
+                            <li class="nav-item px-3 nav__text">
+                                <a href="https://www.instagram.com/andresdelarca/?igshid=YmMyMTA2M2Y%3D"><img
+                                        src="imgs/instagram.svg" alt="Instagram"></a>
+                            </li>
+                        </ul>
+                        <a href="pages/contacto.html" class="btn nav__btn m-4 px-3" role="button">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </footer>
+    </div>
+
+    <!-- JAVASCRIPT BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

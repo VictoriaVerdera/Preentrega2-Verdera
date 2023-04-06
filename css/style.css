@@ -1,0 +1,69 @@
+:root{
+    --bg-header-footer: #487984;
+    /* COLORES BOTONES PRINCIPALES */
+    --bg-button-ppal: #C6D9D8;
+    --bg-button-sec: #0f2423;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav__text{
+    color: var(--bg-button-sec) important!;
+}
+
+.nav__logo {
+    width: 250px !important;
+    height: auto;
+}
+
+.footer__logo {
+    width: 200px !important;
+    height: auto;
+}
+
+header, footer{
+    background-color: var(--bg-header-footer);
+}
+
+.nav__btn {
+    color: var(--bg-button-sec);
+    background-color: var(--bg-button-ppal);
+    border-color: var(--bg-button-sec);
+}
+
+.mg-cero {
+    margin: 0;
+}
+
+.nav__btn:hover {
+    color: var(--bg-button-ppal);
+    background-color: rgba(red, green, blue, 0);
+    border-color: var(--bg-button-ppal);
+    box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.form__btn{
+    color: var(--bg-button-sec);
+    background-color: var(--bg-button-ppal);
+    border-color: var(--bg-button-sec);
+}
+
+.form__btn:hover {
+    color: var(--bg-button-ppal);
+    background-color: var(--bg-button-sec);
+    border-color: var(--bg-button-ppal);
+    box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* CONTACTO */
+.banner__img{
+    height: 300px important!; 
+    overflow: hidden important!;
+}
